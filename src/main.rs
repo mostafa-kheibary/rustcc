@@ -2,6 +2,7 @@ use std::env::args;
 
 mod compiler;
 mod driver;
+mod tokenizer;
 
 fn main() {
     let argc: Vec<String> = args().collect();
